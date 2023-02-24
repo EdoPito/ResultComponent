@@ -1,0 +1,378 @@
+/* font-family: 'Hanken Grotesk', sans-serif; */
+
+/* general reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* top part */
+
+.top_part{
+    text-align: center;
+    padding-top: 1.5rem;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+    border-radius: 0px 0px 32px 32px;
+    padding-bottom: 40px;
+}
+
+.top_part>:first-child{
+
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.4375rem;
+    color: #CAC9FF;
+    margin-bottom: 1.5rem;
+
+}
+
+#average{
+font-family: 'Hanken Grotesk';
+font-style: normal;
+font-weight: 800;
+font-size: 56px;
+line-height: 72px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.circle{
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    border-radius: 50%;
+    width: 40%;    
+    margin: 0 auto;
+    padding: 25px 39px 32px 38px;
+    margin-bottom: 24px;
+}
+
+.circle p{
+
+font-family: 'Hanken Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #CAC9FF;
+mix-blend-mode: normal;
+opacity: 0.52;
+}
+
+/* great bit */
+
+h2{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.info p{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #CAC9FF;
+    width: 70%;
+    margin: 0 auto;
+    
+
+}
+
+/* bottom part */
+
+.bottom_part{
+    width: 90%;
+    margin: 24px auto;
+}
+
+h3{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #303B59;
+    margin-bottom: 24px;
+}
+
+.summary_card{
+    display: flex;
+    margin-bottom: 16px;
+    padding: 17px 0px 18px 0px
+}
+
+.summary_card img{
+    margin-left: 16px;
+    margin-right: 12px;
+}
+
+.score_result{
+    margin-left: auto;
+    margin-right: 16px;
+}
+
+.score_result p:first-of-type{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #303B59;
+}
+
+.score_result p:last-of-type{
+font-family: 'Hanken Grotesk';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+text-align: right;
+color: #303B59;
+opacity: 0.5;
+margin-left: 8px;
+
+}
+
+/* colors for cells */
+
+.red{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+border-radius: 12px;
+}
+
+.orange{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+border-radius: 12px;
+}
+
+.green{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+border-radius: 12px;
+}
+
+.blue{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+border-radius: 12px;
+}
+
+/* p stylyngs for the bot part */
+
+/* reaction cell */
+
+#reaction_categ{
+
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FF5555;
+}
+
+/* memory */
+
+#memory_categ{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFB21E;
+}
+
+
+/* verbal */
+
+#verbal_categ{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00BB8F;
+
+}
+
+/*  visual */
+
+#visual_categ{
+
+font-family: 'Hanken Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #1125D6;
+}
+
+
+/* button style */
+
+button{
+    width:100%;
+    background-color: #303B59;
+    border-radius: 128px;
+    color: #FFFFFF;
+    padding: 17px 0px 17px 0px;
+    border-style: none;
+}
+
+
+
+@media (min-width: 1440px) {
+
+    body{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .body{
+        width: 50%;        
+        display: flex;
+        background: #FFFFFF;
+        box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+        border-radius: 32px;
+        
+    }
+
+
+    .top_part{
+        border-radius: 32px;
+        width: 50%;
+        padding-bottom: 55px;
+    }
+
+    .top_part>:first-child{
+         margin-bottom: 35px;
+    }
+
+    #average{
+        font-size: 72px;
+        margin-bottom: 4px;
+    }
+
+    .circle{
+        padding: 55px 60px 46px 59px;
+        width: 60%;
+    }
+
+    .circle p{
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    h2{
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 14px;
+    }
+
+
+    .info p{
+        font-size: 18px;
+        line-height: 23px;
+        width: 80%;
+    }
+
+    /* right part */
+
+    .bottom_part{
+
+        width: 50%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    h3{
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .summary_card{
+        margin-bottom: 32px;
+    }
+
+    button:hover{
+        cursor: pointer;
+        background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+        opacity: 0.5;
+        transition: opacity 1s linear ;
+        
+    }
+
+    button{
+    font-family: 'Hanken Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    
+    }
+
+    .summary_card:hover{
+        transform: scale(1.2);
+        transition: transform 0.5s ease-out;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.score_result{
+    display: flex;
+}

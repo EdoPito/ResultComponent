@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+<body>
+
+ <div class="body">
+   <div class="top_part">
+  
+      <p>Your Result</p>
+      <div class="circle">
+        <h1 id="average"></h1>
+        <p>of 100</p>
+      </div >
+    
+     <div class="info">
+        <h2>Great</h2>
+        <p>Your performance exceed 65% of the people conducting the test here!</p>
+     </div >
+   </div >
+    
+    <div class="bottom_part">
+      <h3>Summary</h3>
+  
+      <div class="summary_card red">
+        <img id="reactionLogo" alt="reactionLogo">
+        <p id="reaction_categ"></p>
+        <div class="score_result"><p id="reaction_score"></p> <p>/ 100</p></div>
+      </div>
+  
+  
+  
+      <div class="summary_card orange">
+       <img alt="memoryLogo" id="memoryLogo">
+       <p id="memory_categ"></p>
+       <div class="score_result"><p id="memory_score"></p> <p>/ 100</p></div>
+      </div>
+  
+  
+      <div class="summary_card green">
+        <img alt="verbalLogo" id="verbalLogo">
+        <p id="verbal_categ"></p>
+        <div class="score_result"><p id="verbal_score"></p> <p>/ 100</p></div>
+      </div>
+  
+      <div class="summary_card blue">
+        <img alt="visualLogo" id="visualLogo">
+        <p id="visual_categ"></p>
+        <div class="score_result"><p id="visual_score"></p> <p>/ 100</p></div>
+      </div>  
+    
+      
+    
+    
+      <button>Continue</button>
+    </div>
+ </div >
+  
+  <script type="module" src="script.js"></script>
+</body>
+</html>
